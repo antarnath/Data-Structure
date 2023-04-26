@@ -1,0 +1,19 @@
+
+
+// main function
+    // Create a Node of Linked list
+    // Input n number of number and all number insert Linked list tail  
+    // Create two Node temp and New
+    // while loop(temp Node first to NULL)
+        //Create a Node this Node tem = first Node
+        // int type variable sum=0
+        //while loop(tem Node first to NULL)
+            //sum += tem->value
+            //condition check sum == 0
+                //temp  = tem;
+                //break
+            //temp = temp->next
+            //condition chck sum != 0
+                //New Node tail insert temp->value
+        //temp = temp->next
+    //print New Node
